@@ -1,8 +1,8 @@
 class Bill
-	attr_accessor :id, :total
+  attr_accessor :id, :total
 
-	def initialize(id, total)
-		@id = id
-		@total = total
-	end
+  def initialize(id, total)
+    @id = id
+    @total = total
+  end
 end
